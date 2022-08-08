@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.box1 {
+    background: url(/img/bg-hero-desktop.svg)  hsl(193, 100%, 96%);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.log {
+    width: 230px;
+    /* height: 50px; */
+}
+
+.free {
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    padding: 16px 13px;
+    background-color: #fff;
+    color: hsl(192, 100%, 9%);
+    cursor: pointer;
+}
+
+.imagetxt {
+    display: flex;
+}
+
+.txt {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    color: hsl(192, 100%, 9%);
+    font-size: 18px;
+}
+
+.img1 {
+    width: 50%;
+}
+
+.illust {
+    width: 600px;
+    height: 500px;
+}
+
+.get {
+    width: 300px;
+    padding: 20px 10px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    cursor: pointer;
+}
+
+.cont2 {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    padding-top: 130px;
+    gap: 30px;
+}
+
+.jointbox {
+    border: 1px solid black;
+    display: flex;
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.jointimg {
+    width: 50%;
+
+}
+
+.jointtxt {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+.imgjsize {
+    width: 400px;
+    height: 300px;
+}
+
+.jh2 {
+    color: hsl(192, 100%, 9%);
+}
+
+.jp {
+    color: hsl(208, 11%, 55%);
+    font-weight: 400px;
+}
+
+.float {
+    border: none;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+}
+
+.huddle {
+    color: #fff;
+}
