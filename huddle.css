@@ -28,15 +28,17 @@ body {
 .logo {
     display: flex;
     justify-content: space-between;
+    
+    
 }
 
 .log {
-    width: 230px;
-    /* height: 50px; */
+    width: 150px;
+    height: 30px;
 }
 
 .free {
-    width: 200px;
+    width: 150px;
     border-radius: 30px;
     border: none;
     font-weight: bold;
@@ -44,6 +46,10 @@ body {
     background-color: #fff;
     color: hsl(192, 100%, 9%);
     cursor: pointer;
+}
+
+.free:hover {
+    color:hsl(208, 11%, 55%);
 }
 
 .imagetxt {
@@ -58,6 +64,7 @@ body {
     gap: 40px;
     color: hsl(192, 100%, 9%);
     font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .img1 {
@@ -70,7 +77,7 @@ body {
 }
 
 .get {
-    width: 300px;
+    width: 250px;
     padding: 20px 10px;
     border-radius: 30px;
     border: none;
@@ -78,6 +85,10 @@ body {
     background-color: hsl(322, 100%, 66%);
     color: #fff;
     cursor: pointer;
+}
+
+.get:hover {
+    background-color: hsl(323, 74%, 82%);
 }
 
 .cont2 {
@@ -115,6 +126,7 @@ body {
     gap: 20px;
     line-height: 20px;
     font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .imgjsize {
@@ -128,7 +140,7 @@ body {
 
 .jp {
     color: hsl(208, 11%, 55%);
-    font-weight: 400px;
+    font-weight: 300px;
 }
 
 .float {
@@ -152,15 +164,32 @@ body {
 .carier {
     padding-top: 100px;
     display: flex;
-    justify-content: space-between;
+    gap: 150px;
     align-items: center;
     padding-bottom: 40px;
+    font-weight: 200px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .carier1 {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.carier2, .carier3 {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.copyright {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.carier2:hover, .carier3:hover {
+    text-decoration: underline;
 }
 
 .carier4 {
@@ -175,9 +204,18 @@ i {
    cursor: pointer;
 }
 
+i:hover {
+    color:hsl(323, 74%, 82%);
+}
+
 .huddle {
-    width: 20px;
+    width: 15px;
     height: 20px;
+}
+
+.huddle1 {
+    width: 17px;
+    height: 17px;
 }
 
 .location, .phone, .email {
@@ -199,9 +237,4 @@ footer {
     padding-right: 50px;
     padding-left: 50px;
     width: 100vw;
-}
-
-
-@median (max-width: 500px;) {
-
 }
