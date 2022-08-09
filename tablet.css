@@ -117,6 +117,10 @@ br {
     display: none;
 }
 
+.carier5 {
+    display: block;
+}
+
 .copyright {
     display: flex;
     flex-direction: column;
