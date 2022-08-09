@@ -238,6 +238,9 @@ i:hover {
     justify-content: flex-end;
 }
 
+.carier5 {
+    display: none;
+}
 
 footer {
     background-color: hsl(192, 100%, 9%);
